@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbars */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: theme('colors.brand.DEFAULT'); border-radius: 4px; }
